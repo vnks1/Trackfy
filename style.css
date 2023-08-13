@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#0d0c22;
+
+}
+
+.login-area{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #070713;
+    width: 400px;
+    height: 420px;
+    margin: 30px;
+    border-radius: 5px;
+
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+.login input{
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color:#0d0c22;
+    border: none;
+    height: 45px;
+    outline: none;
+    width: 360px;
+    margin-left: 18px;
+    padding-left: 10px;
+    color: white;
+}
+
+.login img{ 
+    width: 150px;
+    height: auto;
+
+}
+
+.input::placeholder{
+    color: white;
+    
+}
+
+form [type="submit"]{
+   
+}
+
+p{
+    color: white;
+    margin-top: 18px;
+    
+}
+
+a{
+    color: #514ac9;
+    text-decoration: none;
+}
+
+input:hover{
+    background-color: #514ac9;
+
+}
+
+.btnlogin{
+    margin-top: 15px;
+    margin-left: 22px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(13,12,34,1) 0%, rgba(23,22,60,1) 100%);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+
+}
+
+.btnlogin:hover{
+
+    background: #0d0c22;
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    body {
+    margin-right: 10px;;
+     width: 400px;
+     height: 400px;
+    }
+    
+    post{
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height:200px;
+    }
+    
+    .login input{
+        width: 265px;
+        margin-left: 30px;
+    }
+    
+    .btnlogin{
+        width: 265px;
+        margin-left: 30px;
+        align-items: center;
+    }
+    
+    .login{
+        align-items: center;
+        justify-content: center;
+        margin-left: 47px;
+    
+    }
+    
+  }
